@@ -1,0 +1,8 @@
+POST http://127.0.0.1:8000/lookup/mac-to-vendor
+Content-Type: application/json
+
+{
+   "mac_address": "08:46:C7:00:00:00"
+}
+
+###
