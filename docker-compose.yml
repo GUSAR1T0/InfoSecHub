@@ -1,0 +1,7 @@
+services:
+
+  infosechub:
+    image: infosechub:latest
+    build:
+      context: .
+    restart: unless-stopped
